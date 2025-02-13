@@ -1,0 +1,33 @@
+body{
+    background-color: yellow;
+}
+.box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.box-item-2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    line-height: 250px;
+    background-color: white;
+    box-shadow: 30px 30px 10px;
+}
+.box-item-3{
+    margin-top: -185px;
+    margin-left: 300px;
+}
+.box-item-4{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    line-height: 250px;
+    background-color: white;
+    box-shadow: 30px 30px 10px;
+    margin: 0 700px;
+    margin-top: -130px;
+}
+.box-item-5{
+    margin-top: -185px;
+    margin-left: 1000px;
+}

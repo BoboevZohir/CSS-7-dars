@@ -1,0 +1,185 @@
+body{
+    background-color: blue;
+}
+.head{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 100px auto;
+    position: relative;
+}
+.ears{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    animation-name: ears;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ears{
+    from{
+        transform: translateY(90px);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.earstwo{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    z-index: -1;
+    animation-name: earstwo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes earstwo{
+    from{
+        transform: translateY(90px);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+.eyes{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 650px;
+    top: 350px;
+}
+.eye{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    top: 350px;
+}
+
+.nose{
+    width: 250px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    left: 700px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    position: absolute;
+    top: 450px;
+    left: 400px;
+    z-index: 1;
+}
+
+.tongue{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 950px;
+    left: 400px;
+    z-index: -1;
+    animation-name: tongue;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes tongue{
+    from{
+        transform: translateY(-90px);
+    }
+    to{
+        transform: translateY(90px);
+    }
+}
+.body{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 100px auto;
+    position: absolute;
+    position: relative;
+    left: 25px;
+    bottom: 100px;
+    z-index: -2;
+}
+.tail{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    animation-name: tail;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes tail{
+    from{
+        transform: skew(80deg);
+    }
+    to{
+        transform: p;
+    }
+}
+.leg1{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 80%;
+    position: absolute;
+    top: 800px;
+}
+.leg2{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    border-radius: 80%;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+}
+
+.mouse{
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    border-bottom-left-radius: 400px;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 200px;
+    position: absolute;
+    top: 500px;
+    left: -150px;
+}
+.mouse1{
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    border-bottom-right-radius: 400px;
+    border-top-right-radius: 400px;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 200px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}

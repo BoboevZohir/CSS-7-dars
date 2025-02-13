@@ -1,0 +1,159 @@
+body{
+    width: 1200px;
+    background-color: black;
+    margin: 0 auto;
+}
+.box-item1{
+    width: 50px;
+    height: 125px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    animation-name: item1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box-item2{
+    width: 50px;
+    height: 155px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    animation-name: item2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box-item3{
+    width: 50px;
+    height: 165px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    animation-name: item3;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box-item4{
+    width: 50px;
+    height: 140px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    animation-name: item4;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box-item5{
+    width: 50px;
+    height: 70px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    margin-bottom: 60px;
+    animation-name: item5;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+.box-add1{
+    width: 40px;
+    height: 50px;
+    background-color: skyblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+.box-add3{
+    width: 40px;
+    height: 50px;
+    background-color: skyblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+.box-add5{
+    width: 40px;
+    height: 50px;
+    background-color: skyblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 110px;
+}
+.box-add7{
+    width: 40px;
+    height: 50px;
+    background-color: skyblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 85px;
+}
+.box-add9{
+    width: 30px;
+    height: 52px;
+    transform: rotate(270deg);
+    background-color: skyblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+@keyframes item1{
+    50%{
+        transform: translateY(40px);
+    }
+}
+@keyframes item2{
+    50%{
+        transform: translateY(35px);
+    }
+}
+@keyframes item3{
+    50%{
+        transform: translateY(40px);
+    }
+}
+@keyframes item4{
+    50%{
+        transform: translateY(45px);
+    }
+}
+@keyframes item5{
+    50%{
+        transform: translateY(55px);
+    }
+}

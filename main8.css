@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(180deg,brown,gray,green);
+    margin: 100px auto;
+}
+.p{
+    text-align: center;
+    color: white;
+    line-height: 150px;
+}
+.box-item{
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(90deg,orange,yellow,green,darkblue,purple);
+    margin: 100px auto;
+}
+.pp{
+    text-align: center;
+    color: white;
+    line-height: 150px;
+}

@@ -1,0 +1,39 @@
+.box{
+    width: 700px;
+    height: 1000px;
+    background: linear-gradient(-70deg,blue,purple);
+    margin: 100px auto;
+    position: relative;
+}
+.box-item{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20%;
+    margin: 100px auto;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+.p{
+    font-size: 100px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    color: orange;
+}
+.pp{
+    font-size: 100px;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: royalblue;
+}
+.ppp{
+    font-size: 100px;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    color: darkblue;
+}
